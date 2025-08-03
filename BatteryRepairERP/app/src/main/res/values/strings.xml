@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Battery Repair ERP</string>
+    
+    <!-- Authentication -->
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="invalid_credentials">Invalid username or password</string>
+    
+    <!-- Setup -->
+    <string name="welcome_setup">Welcome to Battery Repair ERP</string>
+    <string name="setup_firebase">Firebase Setup</string>
+    <string name="firebase_url">Firebase Database URL</string>
+    <string name="firebase_api_key">Firebase API Key</string>
+    <string name="firebase_project_id">Firebase Project ID</string>
+    <string name="save_configuration">Save Configuration</string>
+    <string name="test_connection">Test Connection</string>
+    <string name="setup_complete">Setup Complete</string>
+    
+    <!-- Navigation -->
+    <string name="dashboard">Dashboard</string>
+    <string name="batteries">Batteries</string>
+    <string name="customers">Customers</string>
+    <string name="billing">Billing</string>
+    <string name="users">Users</string>
+    <string name="settings">Settings</string>
+    <string name="reports">Reports</string>
+    
+    <!-- Battery Management -->
+    <string name="battery_inward">Battery Inward</string>
+    <string name="battery_details">Battery Details</string>
+    <string name="customer_info">Customer Information</string>
+    <string name="battery_type">Battery Type</string>
+    <string name="brand">Brand</string>
+    <string name="serial_number">Serial Number</string>
+    <string name="voltage_arrival">Voltage at Arrival</string>
+    <string name="complaint">Complaint</string>
+    <string name="generate_qr">Generate QR Code</string>
+    <string name="print_receipt">Print Receipt</string>
+    <string name="assign_technician">Assign Technician</string>
+    
+    <!-- Customer Information -->
+    <string name="customer_name">Customer Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="address">Address</string>
+    
+    <!-- Repair Status -->
+    <string name="status_inward">Inward</string>
+    <string name="status_assigned">Assigned</string>
+    <string name="status_in_progress">In Progress</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_delivered">Delivered</string>
+    <string name="status_cancelled">Cancelled</string>
+    
+    <!-- User Roles -->
+    <string name="role_admin">Admin</string>
+    <string name="role_staff">Staff</string>
+    <string name="role_technician">Technician</string>
+    
+    <!-- Actions -->
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="export">Export</string>
+    <string name="refresh">Refresh</string>
+    
+    <!-- Messages -->
+    <string name="success">Success</string>
+    <string name="error">Error</string>
+    <string name="loading">Loading...</string>
+    <string name="no_data">No data available</string>
+    <string name="connection_error">Connection error. Please check your internet connection.</string>
+    <string name="firebase_not_configured">Firebase not configured. Please setup Firebase first.</string>
+    
+    <!-- QR Code -->
+    <string name="scan_qr">Scan QR Code</string>
+    <string name="qr_code_generated">QR Code generated successfully</string>
+    <string name="qr_scan_instruction">Point camera at QR code</string>
+    
+    <!-- PDF -->
+    <string name="generating_pdf">Generating PDF...</string>
+    <string name="pdf_generated">PDF generated successfully</string>
+    <string name="pdf_error">Error generating PDF</string>
+    
+    <!-- Billing -->
+    <string name="create_invoice">Create Invoice</string>
+    <string name="invoice_number">Invoice Number</string>
+    <string name="parts_used">Parts Used</string>
+    <string name="service_charges">Service Charges</string>
+    <string name="tax">Tax</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="customer_signature">Customer Signature</string>
+    
+    <!-- Settings -->
+    <string name="shop_name">Shop Name</string>
+    <string name="shop_logo">Shop Logo</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="notifications">Notifications</string>
+    <string name="backup_data">Backup Data</string>
+    <string name="restore_data">Restore Data</string>
+</resources>
