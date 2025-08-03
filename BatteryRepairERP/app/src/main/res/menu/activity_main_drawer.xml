@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/dashboard" />
+            
+        <item
+            android:id="@+id/nav_batteries"
+            android:icon="@drawable/ic_battery_logo"
+            android:title="@string/batteries" />
+            
+        <item
+            android:id="@+id/nav_customers"
+            android:icon="@drawable/ic_customers"
+            android:title="@string/customers" />
+            
+        <item
+            android:id="@+id/nav_billing"
+            android:icon="@drawable/ic_billing"
+            android:title="@string/billing" />
+    </group>
+
+    <item android:title="Management">
+        <menu>
+            <item
+                android:id="@+id/nav_users"
+                android:icon="@drawable/ic_users"
+                android:title="@string/users" />
+                
+            <item
+                android:id="@+id/nav_reports"
+                android:icon="@drawable/ic_reports"
+                android:title="@string/reports" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="@string/settings" />
+                
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="@string/sign_out" />
+        </menu>
+    </item>
+
+</menu>

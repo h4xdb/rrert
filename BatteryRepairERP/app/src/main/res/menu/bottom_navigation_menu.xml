@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard" />
+        
+    <item
+        android:id="@+id/nav_batteries"
+        android:icon="@drawable/ic_battery_logo"
+        android:title="@string/batteries" />
+        
+    <item
+        android:id="@+id/nav_customers"
+        android:icon="@drawable/ic_customers"
+        android:title="@string/customers" />
+        
+    <item
+        android:id="@+id/nav_billing"
+        android:icon="@drawable/ic_billing"
+        android:title="@string/billing" />
+</menu>
